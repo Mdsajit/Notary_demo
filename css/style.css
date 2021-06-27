@@ -1,0 +1,395 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+   padding: 15px 0;
+   /*border: 1px solid red;*/
+}
+.container{
+   width: 80%;
+   /*border: 1px solid red;*/
+   margin: 0 auto;
+   overflow: hidden;
+}
+.logo{
+width: 20%;
+/*border: 1px solid black;*/
+float: left;
+}
+.logo img{
+ width: 100%;
+}
+.menu{
+	margin-top: 10px;
+width: 75%;
+/*border: 1px solid black;*/
+float: right;
+}
+.menu ul{
+    float: right;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a{
+	font-family: sans-serif;
+	font-size:16px ;
+	font-weight:bold ;
+	color: #535D69 ;
+    text-decoration: none;
+    padding: 0 10px;
+    display: inline-block;
+
+}
+.menu ul li:last-child a{
+	 padding-right: 0;
+}
+
+.menu ul li a:hover{
+	color: #BD233F;
+}
+/*header end*/
+/*banner start*/
+.banner{
+   background-image: url( ../images/business.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: ;
+   background-position: top center;
+}
+.b_content{
+   margin-top: 100px;
+   margin-bottom: 100px;
+   width: 50%;
+   /*border: 1px solid red;*/
+}
+.b_content h1{
+   font-family: sans-serif;
+   font-size: 59px;
+   font-weight: bold;
+   color:white ;
+   line-height: ;
+   letter-spacing: px;
+   text-transform: capitalize;
+   margin-top: 0;
+   margin-bottom: 25px;
+}
+.b_content p{
+  font-family: sans-serif;
+   font-size: 17px;
+   font-weight: normal;
+   color:white ; 
+   margin-top: 0;
+   margin-bottom: 15px;
+
+
+}
+.b_content button{
+   width: 250px;
+   height: 50px;
+   background-color: #BE2342;
+   border: none;
+   color: white;
+   font-family: sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   text-transform: uppercase;
+   cursor: pointer;
+
+}
+.b_content button:focus{
+   outline: 0;
+}
+
+/*banner end*/
+/*service section css*/
+
+/*service section css end*/
+.service{
+   padding: 80px 0;
+}
+.service_title{
+   width: 55%;
+   margin: 0 auto;
+   text-align: center;
+}
+.service_title h1{
+   font-size: 32px;
+   margin-bottom: 18px;
+}
+.service_title p {
+   color: #535d69;
+   font-size: ;
+
+}
+
+.service_wrapper{
+   margin-top: 50px;
+   overflow: hidden;
+}
+
+.s_item{
+   width: 31.33%;
+   float: left;
+   /*border: 1px solid red;*/
+   text-align: center;
+   padding: 30px 60px;
+   box-sizing: border-box;
+   margin: 0 1%;
+}
+.s_item img{}
+.s-content{}
+.s-content h4{}
+/*video section start*/
+.video{
+   padding: 80px 0;
+   background: #fafafa;
+}
+.video_item{
+   overflow: hidden;
+}
+
+.video_text{
+   width: 48%;
+   float: left;
+   box-sizing: border-box;
+   margin-top: 40px;
+   padding-right: 100px;
+}
+.video_text h1{
+   font-size: 22px;
+   line-height: 38px;
+   margin-bottom: 14px;
+
+}
+.video_text p{
+   font-size: 16px;
+   line-height: 21px;
+   padding-right: 50px;
+   margin-bottom: 30px;
+}
+
+.video_right{
+   width: 48%;
+   float: right;
+}
+.b_button-video{}
+.b_button-video button{
+   width: 100px;
+   height: 40px;
+   font-size: 11px;
+   color: white;
+   border: none;
+   background: #BD2442;
+   font-weight: bold;
+   text-transform: uppercase;
+   cursor: pointer;
+   border-radius: 2px;
+   transition: .3s;
+
+}
+.b_button-video button:hover{
+   background: black;
+}
+
+/*video section end*/
+/*feature css start*/
+.feature{
+   padding: 80px 0;
+}
+.feature-title{
+   width: 55%;
+   margin: 0 auto;
+   text-align: center;
+}
+.feature-title h1{
+   font-size: 32px;
+   text-transform: uppercase;
+   margin-bottom: 18px;
+
+
+
+
+}
+.feature-title p{
+   padding: 0 30px;
+   color: #C1C1C1;
+}
+
+.feature_items{
+   margin-top: 60px;
+   text-align: center;
+   overflow: hidden;
+}
+.feature_box{
+   float: left;
+   border: 1px solid #ddd;
+   box-sizing: border-box;
+   width: 31.33%;
+   padding: 50px 45px;
+   margin: 15px 1%;
+   transition: .4%;
+}
+.feature_box:hover{
+   box-shadow: 0 0 10px 5px rgb(1, 2, 32, .2);
+}
+.f_icon{
+   width: 25%;
+   margin: auto;
+}
+.f_icon img{
+   width: 100%;
+}
+.f_content{}
+.f_content h4{
+   margin: 10px 0;
+}
+
+.f_content p{
+   font-size: 15px;
+   line-height: 24px;
+   color: #545c67;
+}
+.feature-button2{
+   text-align: center;
+   margin-top: 80px;
+   padding-bottom: 20px;
+   
+
+}
+.feature-button2 button{
+   text-align: center;
+   border: none;
+   color: #bb2741;
+   padding: 14px 20px;
+   font-size: 10px;
+   text-transform: uppercase;
+   font-weight: bold;
+   box-shadow: 0 0 13px 5px rgba(72, 77, 84, .2);
+}
+
+
+
+
+/*feature css end*/
+/*footer css start*/
+.footer_top{
+   background: #090909;
+   padding: 80px 0;
+}
+.layout{
+   overflow: hidden;
+}
+.footer_item{
+   width: 31.33%;
+   float: left;
+   color: #919191;
+}
+.footer_widget{
+ 
+}
+.footer_widget h2{
+     color: #c0213d;
+   font-size: 20px;
+   text-transform: uppercase;
+   margin-bottom: 25px;
+}
+/*footer top left item*/
+.f_contact{}
+.f_contact ul{
+   list-style: none;
+}
+.f_contact ul li{
+   margin: 10px 0;
+}
+.f_contact ul li a{
+   text-decoration: none;
+   color: #919191;
+   font-size: 15px;
+}
+.f_social{
+   margin-top: 40px;
+}
+.f_social ul li{
+   display: inline-block;
+}
+.f_social ul li a{
+   display: block;
+   width: 30px;
+   height: 30px;
+   line-height: 33px;
+   text-align: center;
+   background: #919191;
+   color: black;
+   font-size: 17px;
+   border-radius: 6px;
+   transition: .4s;
+}
+.f_social ul li a:hover{
+    background: #bd233f;
+    color: white;
+}
+/*footer middle menu list*/
+.f_menu{}
+.f_menu ul{
+   list-style: none;
+}
+.f_menu ul li{
+   margin: 10px 0;
+}
+.f_menu ul li a{
+   display: block;
+   text-decoration: none;
+   color: #919191;
+   font-size: 15px;
+   transition: .4s;
+}
+.f_menu ul li a:hover{
+   color: #bd233f;
+
+}
+/*footer right newsletter*/
+.f_newsletter{
+   width: 80%;
+}
+.f_newsletter p{
+   color: #919191;
+   line-height: 24px;
+   font-size: 15px;
+}
+
+.newsletter_form{
+   margin-top: 30px;
+}
+.newsletter_form input{
+   background: transparent;
+   color: #ddd;
+   padding: 7px 10px;
+   border: 1px solid #ddd;
+}
+.newsletter_form button{
+   padding: 9px 15px;
+   font-weight: 600;
+   background: #bd233f;
+   color: white;
+   border: none;
+   cursor: pointer;
+   border-radius: 3px;
+}
+/*footer bottom css*/
+.footer_bottom{
+   background: #535d69;
+   padding: 25px 0;
+   text-align: center;
+}
+.footer_finish p{
+   font-size: 14px;
+   color: #ddd;
+}
+.footer_finish p a{
+   text-decoration: none;
+   letter-spacing: 2px;
+}
+/*footer css end*/
